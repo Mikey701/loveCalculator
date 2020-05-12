@@ -16,13 +16,9 @@ void loveCalculator(){
   
   if (loveScore > 70){
     print('You are madly in love');
-  }
-    
-  if (loveScore > 50 && loveScore < 70){
-    print('You like each other a fair amount.');
-  }
-  
-  if (loveScore < 50) {
-    print('You don\'t like each other.');
+  } else if (loveScore > 30){
+    print('You are average at the love game');
+  } else if (loveScore <= 29){
+    print('You have a long way to go my friend');
   }
 }
